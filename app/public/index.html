@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Maison Verte – boutique de démonstration</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="top">
+    <a class="brand" href="#/">Maison Verte <small>démo</small></a>
+    <nav aria-label="Navigation principale">
+      <a href="#/">Catalogue</a>
+      <a href="#/panier" data-testid="cart-link">Panier (<span data-testid="cart-count">0</span>)</a>
+      <label>Devise
+        <select id="currency">
+          <option value="EUR">EUR</option>
+          <option value="USD">USD</option>
+          <option value="GBP">GBP</option>
+        </select>
+      </label>
+    </nav>
+  </header>
+  <main id="app"></main>
+  <script src="pricing.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

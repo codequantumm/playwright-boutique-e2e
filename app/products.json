@@ -1,0 +1,8 @@
+[
+  { "id": "savon-lavande", "name": "Savon Lavande", "category": "soins", "price": 8 },
+  { "id": "creme-hydratante", "name": "Crème Hydratante", "category": "soins", "price": 20 },
+  { "id": "gel-douche-agrumes", "name": "Gel Douche Agrumes", "category": "soins", "price": 10 },
+  { "id": "bougie-cedre", "name": "Bougie Cèdre", "category": "maison", "price": 24 },
+  { "id": "diffuseur-brume", "name": "Diffuseur Brume", "category": "maison", "price": 30 },
+  { "id": "plaid-lin", "name": "Plaid Lin", "category": "maison", "price": 60 }
+]

@@ -1,0 +1,20 @@
+{
+  "name": "playwright-boutique-e2e",
+  "version": "1.0.0",
+  "description": "Tests E2E et API avec Playwright et TypeScript sur une boutique en ligne de démonstration.",
+  "private": true,
+  "scripts": {
+    "start": "node app/server.js",
+    "test": "playwright test",
+    "test:smoke": "playwright test --grep @smoke",
+    "test:regression": "playwright test --grep @regression",
+    "test:ui": "playwright test --ui",
+    "report": "playwright show-report",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.63.0",
+    "@types/node": "^22.0.0",
+    "typescript": "^5.6.0"
+  }
+}
